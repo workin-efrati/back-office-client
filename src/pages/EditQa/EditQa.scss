@@ -1,0 +1,89 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+}
+
+.alert{
+  height: 30px;
+}
+.trash{
+  font-size: 50px;
+  color: rgb(108, 108, 214);
+}
+
+
+.messagesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 30%;
+  max-height: 500px;
+  overflow: auto;
+
+}
+
+.message {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 300px;
+  max-height: 50px;
+  border-radius: 7px;
+  padding: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
+  transition: max-height 1s ease;
+}
+
+.expendedMes {
+  max-height: 1000px;
+  white-space: unset;
+  text-overflow: unset;
+}
+
+.answer {
+  background-color: #6f70bf;
+}
+
+.question {
+  background-color: #8393da;
+}
+
+.date {
+  font-size: 9px;
+  background-color: rgb(201, 186, 200);
+  border-radius: 7px;
+  display: inline;
+  padding: 3px;
+}
+.editContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 300px;
+  min-height: 500px;
+  background-color: #e7efbf;
+}
+.div_editor{
+  max-width: 300px;
+  min-height: 50px;
+  background-color: #d2e475;
+  border-radius: 7px;
+  border: 2px solid #a8b75f ;
+}

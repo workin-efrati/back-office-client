@@ -2,7 +2,7 @@ import axios from 'axios';
 import { create } from 'zustand'
 
 export const UseUserInfo = create((set, get) => ({
-    user: false,
+    user: true,
     loading: false,
     setUser: (user) => {
         console.log({ user });

@@ -38,6 +38,7 @@ export default function CheckLogin() {
 
     return (
         <>
+        <Home/>
         {loading ? <LoadingPage/> :
         user ? <Home /> : <Login />}
         </>

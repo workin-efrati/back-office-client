@@ -30,7 +30,10 @@ export default function Header() {
     {
       link: 'video-view',
       title: 'וידאו'
-    }
+    },{
+      link: 'qa-edit',
+      title: 'עריכת שו"ת'
+    },
   ]
   const toggleMenu = () => {
     setMenuOpen(!menuOpen)
